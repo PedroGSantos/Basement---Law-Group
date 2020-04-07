@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7700C23D-0DCB-4BBD-8C74-682232180156}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>projeto</RootNamespace>
+    <AssemblyName>projeto</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contato.Designer.cs">
+      <DependentUpon>Contato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Direito Penal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Direito Penal.Designer.cs">
+      <DependentUpon>Direito Penal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DireitoCivil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DireitoCivil.Designer.cs">
+      <DependentUpon>DireitoCivil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dados Pessoais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dados Pessoais.Designer.cs">
+      <DependentUpon>Dados Pessoais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Direito Comercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Direito Comercial.Designer.cs">
+      <DependentUpon>Direito Comercial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformaSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformaSenha.Designer.cs">
+      <DependentUpon>InformaSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MB.Designer.cs">
+      <DependentUpon>MB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="erro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="erro.Designer.cs">
+      <DependentUpon>erro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Objetivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Objetivo.Designer.cs">
+      <DependentUpon>Objetivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Termos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Termos.Designer.cs">
+      <DependentUpon>Termos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="testee.Designer.cs">
+      <DependentUpon>testee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vertentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vertentes.Designer.cs">
+      <DependentUpon>Vertentes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contato.resx">
+      <DependentUpon>Contato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Direito Penal.resx">
+      <DependentUpon>Direito Penal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DireitoCivil.resx">
+      <DependentUpon>DireitoCivil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dados Pessoais.resx">
+      <DependentUpon>Dados Pessoais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Direito Comercial.resx">
+      <DependentUpon>Direito Comercial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformaSenha.resx">
+      <DependentUpon>InformaSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MB.resx">
+      <DependentUpon>MB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="erro.resx">
+      <DependentUpon>erro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Objetivo.resx">
+      <DependentUpon>Objetivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Termos.resx">
+      <DependentUpon>Termos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vertentes.resx">
+      <DependentUpon>Vertentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
